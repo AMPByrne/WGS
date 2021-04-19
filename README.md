@@ -14,4 +14,4 @@ Usage: bash RefGuidedAlignment.sh [options] <read(s).fastq>
   
   genconsensus.py is a dependency of RefGuidedAlignment.sh and converts the sorted bam file and reference into a final consensus sequence.
   
-  The RefGuidedAlignment-v2.yml file is a conda env file containing all the sortware/tools required to run RefGuidedAlignment.sh and genconsensus.py.
+  The RefGuidedAlignment-v2.yml file is a conda env file containing all the software/tools required to run RefGuidedAlignment.sh and genconsensus.py.
