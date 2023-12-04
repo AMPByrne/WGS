@@ -1,7 +1,7 @@
 # WGS
 Scripts for processing whole-genome sequencing data
 
-## RefGuidedAlignment
+RefGuidedAlignment
 The script RefGuidedAlignment_Public.sh uses BWA/Minimap2 samtools and iVar to map raw NGS reads (from either Illumina or Oxford Nanopore sequencers) to a reference sequence in a fasta file.
 
 Usage: bash RefGuidedAlignment_Public.sh [options] <read(s).fastq>
@@ -17,7 +17,7 @@ genconsensus.py is a dependency of RefGuidedAlignment_Public.sh and denovoAssemb
   
 The RefGuidedAlignment-v2.yml file is a conda env file containing all the software/tools required to run RefGuidedAlignment.sh and genconsensus.py.
   
-## denovoAssembly
+denovoAssembly
 There are two scripts to perform a hybrid de novo assembly/reference-guided alignment of raw Illumina paired-end (denovoAssembly_Public.sh) or Oxford Nanopore reads (denovoAssembly_ONT_Public.sh) using a given the appropriate host genome and a reference database. 
 
 This is achieved using the following steps: 
