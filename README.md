@@ -10,8 +10,8 @@ Usage: bash RefGuidedAlignment_Public.sh [options] <read(s).fastq>
 	-o path to output location [optional] default = location of read file(s)
 	-c cores [optional] default = all
 	-t the minimum frequency at which a nucleotide will be used to call the consensus. INT 0 - 1.[optional] deault = $MinFreq
-	-m minimum read depth at which iVar call a consensus [optional] default = $MinDepth
-	-n (N or -) character to print if less than minimum coverage (-m) [optional] default = $NoCoverage
+	-m minimum read depth at which iVar call a consensus [optional] default = 1
+	-n (N or -) character to print if less than minimum coverage (-m) [optional] default = -
   
 genconsensus.py is a dependency of RefGuidedAlignment_Public.sh and denovoAssembly_Public.sh and converts the sorted bam file and reference into a final consensus sequence.
   
