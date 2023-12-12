@@ -1,4 +1,4 @@
-# WGS
+# WGS Pipelines
 Scripts for processing whole-genome sequencing data
 
 RefGuidedAlignment
